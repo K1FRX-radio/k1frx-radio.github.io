@@ -8,11 +8,11 @@ tags: [ham-radio, projects, antennas]
 
 I'm super pumped about building my own antennas. There's something magical about turning a carefully measured and cut length of wire, into hardware that can reach someone miles away. It feels so good, man. And this craft is niche, even for engineers, and I'm excited to build the skills needed to earn my place amongst its dark wizards. 
 
-The very first thing I ever tried was a dual-band Yagi antenna to work the repeater on the space station, but man that was _not_ the right starter project. I will post about it when I make it work.
+The very first thing I ever tried was a dual-band [Yagi](https://en.wikipedia.org/wiki/Yagi%E2%80%93Uda_antenna) antenna to work the repeater on the space station, but man that was _not_ the right starter project. I will post about it when I make it work.
 
 Antenna building requires many little details to be done _just right_: materials, sizes, lengths, connectors, you name it. Every choice will determine whether you end up with an antenna that will work _at all_, or merely an interesting-looking piece of metal, let alone one that works _well_.
 
-So, after the confusing failure with the Yagi, I put it on the back burner and looked for something more attainable. I settled on a center-fed dipole antenna for the 2m band. It is simple, compact, and forgiving enough, but still challenging enough to teach me something.
+So, after the confusing failure with the Yagi, I put it on the back burner and looked for something more attainable. I settled on a center-fed [dipole antenna](https://en.wikipedia.org/wiki/Dipole_antenna) for the 2m band. It is simple, compact, and forgiving enough, but still challenging enough to teach me something.
 
 ## Scaling back
 As always, I went a little bit too far too fast. I bought some aluminum rods from the Home Depot and fired up the computer to CAD an articulated hub for a stowable antenna. After a bit of thinking I decided to pull back the scope and start with an even simpler version: a dipole made with two lengths of electrical wire.
