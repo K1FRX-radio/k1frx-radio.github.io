@@ -23,7 +23,7 @@ I'm building a center-fed, half-wave dipole for the 2m band. It is designed to b
 To calculate the length of the wire segments I went with the basic formula 
 $$\lambda = \frac{c}{f}$$
 
-I want the antenna centered on 146.52 MHz (simplex calling frequency for 2m), and assuming ${c}  \approx 300 \text{Mm/s}$ this gives a length of:
+I want the antenna centered on 146.52 MHz (simplex calling frequency for 2m), and assuming $c \approx 300\ \text{Mm/s}$ this gives a length of:
 
 $$\lambda = \frac{300}{146.52} \approx 2.05\ \text{m}$$
 
@@ -37,8 +37,8 @@ I grabbed a couple of lengths of 12 AWG wire I had lying around in the shop. It'
 I designed and printed a central "hub" to hold a panel mounted BNC connector and to provide some structure, fastening and stress relief for the wires.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
-  <img src="../assets/pics/dipole_project/wire-dipole-core.jpg" alt="3D printed Dipole hub" style="flex: 1 1 300px; min-width: 0px; height: auto;">
-  <img src="../assets/pics/dipole_project/wire-dipole-stressrelief.jpg" alt="Zip-tied wires" style="flex: 1 1 300px; min-width: 0px; height: auto;">
+    <img src="{{ '/assets/pics/dipole_project/wire-dipole-core.jpg' | relative_url }}" alt="3D printed Dipole hub" style="flex: 1 1 300px; min-width: 0px; height: auto;">
+    <img src="{{ '/assets/pics/dipole_project/wire-dipole-stressrelief.jpg' | relative_url }}" alt="Zip-tied wires" style="flex: 1 1 300px; min-width: 0px; height: auto;">
 </div>
 
 I soldered the wire halves directly onto the BNC connector. The heavy wire made the center connection tricky, so next time I'll use something thinner and more flexible. I protected the solder joints with heat shrink, secured the wire halves to the hub with zip ties, and gave everything a firm tug test. Nothing moved, good to go.
@@ -46,7 +46,7 @@ I soldered the wire halves directly onto the BNC connector. The heavy wire made 
 This antenna needs to be installed in a vertical orientation, and since the wire is not structural and the antenna will rather need to be hung, I also printed two little clamps to perform as hooks and allow me to hang the antenna.
 
 <div style="text-align: center;">
-    <img src="../assets/pics/dipole_project/wire-dipole-end-clamp.jpg" alt="Little clamps for hanging the antenna" style="width: 100%; max-width: 300px; height: auto;">
+    <img src="{{ '/assets/pics/dipole_project/wire-dipole-end-clamp.jpg' | relative_url }}" alt="Little clamps for hanging the antenna" style="width: 100%; max-width: 300px; height: auto;">
 </div>
 
 I added a channel for the wire so when the clamp is screwed together the wire is bitten by the clamps and they don't detach. The clamps are made of PLA and the tiny M2 screws are not electrically connected to the wire, so there should be no significant effect on the antenna performance.
@@ -66,7 +66,7 @@ I hung the antenna near the center of my living room using painter's tape and st
 
 <figure style="text-align: center;">
     <div style="text-align: center;">
-        <img src="../assets/pics/dipole_project/wire-antenna-test.png" alt="Testing the antenna with the nanoVNA" style="width: 100%; max-width: 300px; height: auto;">
+        <img src="{{ '/assets/pics/dipole_project/wire-antenna-test.png' | relative_url }}" alt="Testing the antenna with the nanoVNA" style="width: 100%; max-width: 300px; height: auto;">
     </div>
     <figcaption> Ignore the mess, ha!</figcaption>
 </figure>
@@ -75,7 +75,7 @@ After calibrating the VNA with a 3' coax jumper, I hooked it to the antenna and 
 
 <figure style="text-align: center;">
     <div style="text-align: center;">
-        <img src="../assets/pics/dipole_project/wire-dipole-bad-swr.jpg" alt="Pretty bad SWR reading in the nanoVNA" style="width: 100%; max-width: 300px; height: auto;">
+        <img src="{{ '/assets/pics/dipole_project/wire-dipole-bad-swr.jpg' | relative_url }}" alt="Pretty bad SWR reading in the nanoVNA" style="width: 100%; max-width: 300px; height: auto;">
     </div>
     <figcaption>Pretty bad SWR of flat ~6:1</figcaption>
 </figure>
@@ -84,7 +84,7 @@ After a couple of tries, including widening the sweep from 110 to 150 MHz so I c
 
 <figure style="text-align: center;">
 <div style="text-align: center;">
-    <img src="../assets/pics/dipole_project/wire-dipole-vna.jpg" alt="SWR dip in the nanoVNA at 146MHz" style="width: 100%; max-width: 300px; height: auto;">
+    <img src="{{ '/assets/pics/dipole_project/wire-dipole-vna.jpg' | relative_url }}" alt="SWR dip in the nanoVNA at 146MHz" style="width: 100%; max-width: 300px; height: auto;">
 </div>
 <figcaption>Nice dip at ~146MHz!</figcaption>
 </figure>
