@@ -4,6 +4,8 @@ title: "Building my first _working_ antenna"
 date: 2026-07-22
 categories: [station-log]
 tags: [ham-radio, projects, antennas]
+image: /assets/pics/dipole_project/wire-antenna-test.png
+image_alt: Testing my homemade half-wave dipole antenna
 ---
 
 I'm super pumped about building my own antennas. There's something magical about turning a carefully measured and cut length of wire, into hardware that can reach someone miles away. It feels so good, man. And this craft is niche, even for engineers, and I'm excited to build the skills needed to earn my place amongst its dark wizards. 

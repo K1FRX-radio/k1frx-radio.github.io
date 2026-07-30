@@ -4,6 +4,8 @@ title: "Testing a cheap mobile antenna"
 date: 2026-07-20
 categories: [station-log]
 tags: [ham-radio, projects, antennas]
+image: /assets/pics/Bingfu_mobile_antenna_test.jpg
+image_alt: Bingfu dual-band mobile antenna set up on a balcony
 ---
 
 It took a while, but my [Bingfu dual-band mobile antenna](https://a.co/d/0gd4XHSu) finally arrived. It's cheap, but the reviews were encouraging. Since I've been struggling to get good reception with the rubber duck on my handheld, I wanted to see how much difference an external antenna would make.

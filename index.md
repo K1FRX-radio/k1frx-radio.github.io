@@ -17,6 +17,12 @@ This site is where I document antenna builds, radio setup, measurements, operati
 
 *{{ post.date | date: "%B %-d, %Y" }}*
 
+{% if post.image %}
+<a href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}">
+	<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" style="display: block; width: 100%; max-height: 360px; object-fit: cover; margin: 1rem 0; border-radius: 6px;">
+</a>
+{% endif %}
+
 {{ post.excerpt }}
 
 [Read the full post →]({{ post.url | relative_url }})
