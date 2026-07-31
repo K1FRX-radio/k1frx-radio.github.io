@@ -1,0 +1,41 @@
+---
+---
+
+@import "minima";
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: $background-color;
+}
+
+.post-header {
+  position: sticky;
+  top: 56px;
+  z-index: 900;
+  margin-bottom: 30px;
+  padding: 12px 0;
+  background-color: $background-color;
+  border-bottom: 1px solid $grey-color-light;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.post-header .post-title {
+  margin-bottom: 4px;
+}
+
+.post-header .post-meta {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .post-header {
+    padding: 8px 0;
+  }
+
+  .post-header .post-title {
+    font-size: 1.625rem;
+    line-height: 1.2;
+  }
+}
