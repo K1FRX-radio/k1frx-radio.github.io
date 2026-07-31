@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building my first _working_ antenna"
+title: "Building my first working antenna"
 date: 2026-07-22
 categories: [station-log]
 tags: [ham-radio, projects, antennas]
