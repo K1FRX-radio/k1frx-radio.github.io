@@ -27,4 +27,4 @@ So far, I'm getting good reception from W1BOS and K1BOS, which I expected. The r
 
 I'll figure out how to mount everything in the car before my next mobile test. For now, though, so far so good!
 
-73, KC1ZTY out.
+73, K1FRX out.

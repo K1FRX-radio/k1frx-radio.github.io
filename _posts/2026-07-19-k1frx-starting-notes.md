@@ -24,3 +24,5 @@ This site will be my record of that work.
 I’m currently working on antennas for the 2-meter and 70-centimeter bands, including a ground-plane antenna and a Yagi that is intended to hopefully one day working the ISS!
 
 I’ll use this site to document the designs, mistakes, measurements, and results.
+
+73, K1FRX out.

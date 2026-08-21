@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-Welcome! I’m **KC1ZTY**, an amateur-radio operator in the Boston area.
+Welcome! I'm **K1FRX**, an amateur-radio operator in the Boston area.
 
 This site is where I document antenna builds, radio setup, measurements, operating experiences, and things I learn along the way.
 

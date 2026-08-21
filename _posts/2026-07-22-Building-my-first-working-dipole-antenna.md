@@ -116,4 +116,4 @@ So, I built a pretty decent 2m dipole, not a dual-band dipole. Still, pretty goo
 I'm going to basically build the same antenna as I had originally imagined it, using rods instead of wires and adding pivot points to the hub so it is nicely portable.
 
 
-73, KC1ZTY out.
+73, K1FRX out.

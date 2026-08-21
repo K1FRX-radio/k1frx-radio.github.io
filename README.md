@@ -1,2 +1,2 @@
-# kc1zty.github.io
-Ham radio adventures from KC1ZTY
+# k1frx.github.io
+Ham radio adventures from K1FRX
